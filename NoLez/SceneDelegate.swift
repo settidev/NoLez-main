@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  Nolez
+//  NoLez
 //
-//  Created by Kunal Gambhir on 07/08/2021.
+//  Created by SATVEER SINGH on 06/08/21.
 //
 
 import UIKit

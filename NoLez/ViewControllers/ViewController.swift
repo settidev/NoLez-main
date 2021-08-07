@@ -1,15 +1,21 @@
 //
 //  ViewController.swift
-//  Nolez
+//  NoLez
 //
-//  Created by Kunal Gambhir on 07/08/2021.
+//  Created by SATVEER SINGH on 06/08/21.
 //
 
 import UIKit
-import CoreData
-class ViewController: UIViewController {
+
+class ViewController: UIViewController{
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        }
-        
+        // Do any additional setup after loading the view.
+    }
+    
+   
+    
+    
 }
+
