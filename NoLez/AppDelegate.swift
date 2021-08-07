@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Nolez
+//  NoLez
 //
-//  Created by Kunal Gambhir on 07/08/2021.
+//  Created by SATVEER SINGH on 06/08/21.
 //
 
 import UIKit
@@ -10,14 +10,11 @@ import CoreData
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    var window: UIWindow?
+
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-//        if let value = UserDefaults.standard.value(forKey: "userName"){
-//            Alreadylogin()
-//        }
         return true
     }
 
@@ -28,16 +25,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to select a configuration to create the new scene with.
         return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
     }
-   
-    
-//    func Alreadylogin(){
-//        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "WelcomeScreenVC") as! WelcomeScreenVC
-//        let home = self.window?.rootViewController
-//        if let navController = home as? UINavigationController{
-//            navController.pushViewController(vc, animated: true)
-//        }
-//    }
-//
 
     func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
         // Called when the user discards a scene session.
@@ -54,7 +41,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "Nolez")
+        let container = NSPersistentContainer(name: "NoLez")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.
