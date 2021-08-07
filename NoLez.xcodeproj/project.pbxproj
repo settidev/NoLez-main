@@ -7,33 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A0F464026BDA179000F759D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0F463F26BDA179000F759D /* AppDelegate.swift */; };
-		7A0F464226BDA179000F759D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0F464126BDA179000F759D /* SceneDelegate.swift */; };
-		7A0F464426BDA179000F759D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0F464326BDA179000F759D /* ViewController.swift */; };
-		7A0F464726BDA179000F759D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0F464526BDA179000F759D /* Main.storyboard */; };
-		7A0F464A26BDA179000F759D /* NoLez.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A0F464826BDA179000F759D /* NoLez.xcdatamodeld */; };
-		7A0F464C26BDA17A000F759D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0F464B26BDA17A000F759D /* Assets.xcassets */; };
-		7A0F464F26BDA17A000F759D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0F464D26BDA17A000F759D /* LaunchScreen.storyboard */; };
-		7A0F465F26BDCC9B000F759D /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0F465E26BDCC9B000F759D /* PreferencesViewController.swift */; };
-		7A8059F626BE7DB400A2A68A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8059F526BE7DB400A2A68A /* HomeViewController.swift */; };
+		7A8059F826BEED4600A2A68A /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8059F726BEED4600A2A68A /* SignupViewController.swift */; };
+		A44F28C226BE8950003898C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F28C126BE8950003898C9 /* AppDelegate.swift */; };
+		A44F28C426BE8950003898C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F28C326BE8950003898C9 /* SceneDelegate.swift */; };
+		A44F28C626BE8950003898C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F28C526BE8950003898C9 /* ViewController.swift */; };
+		A44F28C926BE8950003898C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44F28C726BE8950003898C9 /* Main.storyboard */; };
+		A44F28CC26BE8950003898C9 /* NoLez.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A44F28CA26BE8950003898C9 /* NoLez.xcdatamodeld */; };
+		A44F28CE26BE8953003898C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A44F28CD26BE8953003898C9 /* Assets.xcassets */; };
+		A44F28D126BE8953003898C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44F28CF26BE8953003898C9 /* LaunchScreen.storyboard */; };
+		A44F28DC26BE8953003898C9 /* NoLezTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F28DB26BE8953003898C9 /* NoLezTests.swift */; };
+		A44F28E726BE8953003898C9 /* NolezUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F28E626BE8953003898C9 /* NolezUITests.swift */; };
+		A44F28F626BE8A18003898C9 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F28F526BE8A18003898C9 /* SignUpVC.swift */; };
+		A44F28F826BE8A2E003898C9 /* WelcomeScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F28F726BE8A2E003898C9 /* WelcomeScreenVC.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A44F28D826BE8953003898C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A44F28B626BE8950003898C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A44F28BD26BE8950003898C9;
+			remoteInfo = Nolez;
+		};
+		A44F28E326BE8953003898C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A44F28B626BE8950003898C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A44F28BD26BE8950003898C9;
+			remoteInfo = Nolez;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		7A0F463C26BDA179000F759D /* NoLez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoLez.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A0F463F26BDA179000F759D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7A0F464126BDA179000F759D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7A0F464326BDA179000F759D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7A0F464626BDA179000F759D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7A0F464926BDA179000F759D /* NoLez.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NoLez.xcdatamodel; sourceTree = "<group>"; };
-		7A0F464B26BDA17A000F759D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7A0F464E26BDA17A000F759D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7A0F465026BDA17A000F759D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A0F465E26BDCC9B000F759D /* PreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
-		7A8059F526BE7DB400A2A68A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7A8059F726BEED4600A2A68A /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		A44F28BE26BE8950003898C9 /* NoLez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoLez.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A44F28C126BE8950003898C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A44F28C326BE8950003898C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A44F28C526BE8950003898C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A44F28C826BE8950003898C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A44F28CB26BE8950003898C9 /* NoLez.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NoLez.xcdatamodel; sourceTree = "<group>"; };
+		A44F28CD26BE8953003898C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A44F28D026BE8953003898C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A44F28D226BE8953003898C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A44F28D726BE8953003898C9 /* NoLezTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoLezTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A44F28DB26BE8953003898C9 /* NoLezTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoLezTests.swift; sourceTree = "<group>"; };
+		A44F28DD26BE8953003898C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A44F28E226BE8953003898C9 /* NoLezUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoLezUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A44F28E626BE8953003898C9 /* NolezUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NolezUITests.swift; sourceTree = "<group>"; };
+		A44F28E826BE8953003898C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A44F28F526BE8A18003898C9 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		A44F28F726BE8A2E003898C9 /* WelcomeScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7A0F463926BDA179000F759D /* Frameworks */ = {
+		A44F28BB26BE8950003898C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44F28D426BE8953003898C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44F28DF26BE8953003898C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,43 +84,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7A0F463326BDA179000F759D = {
+		A44F28B526BE8950003898C9 = {
 			isa = PBXGroup;
 			children = (
-				7A0F463E26BDA179000F759D /* NoLez */,
-				7A0F463D26BDA179000F759D /* Products */,
+				A44F28C026BE8950003898C9 /* NoLez */,
+				A44F28DA26BE8953003898C9 /* NoLezTests */,
+				A44F28E526BE8953003898C9 /* NoLezUITests */,
+				A44F28BF26BE8950003898C9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7A0F463D26BDA179000F759D /* Products */ = {
+		A44F28BF26BE8950003898C9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7A0F463C26BDA179000F759D /* NoLez.app */,
+				A44F28BE26BE8950003898C9 /* NoLez.app */,
+				A44F28D726BE8953003898C9 /* NoLezTests.xctest */,
+				A44F28E226BE8953003898C9 /* NoLezUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7A0F463E26BDA179000F759D /* NoLez */ = {
+		A44F28C026BE8950003898C9 /* NoLez */ = {
 			isa = PBXGroup;
 			children = (
-				7A8059F426BE7D7E00A2A68A /* ViewControllers */,
-				7A0F463F26BDA179000F759D /* AppDelegate.swift */,
-				7A0F464126BDA179000F759D /* SceneDelegate.swift */,
-				7A0F464526BDA179000F759D /* Main.storyboard */,
-				7A0F464B26BDA17A000F759D /* Assets.xcassets */,
-				7A0F464D26BDA17A000F759D /* LaunchScreen.storyboard */,
-				7A0F465026BDA17A000F759D /* Info.plist */,
-				7A0F464826BDA179000F759D /* NoLez.xcdatamodeld */,
+				A44F28F426BE8A01003898C9 /* ViewControllers */,
+				A44F28C126BE8950003898C9 /* AppDelegate.swift */,
+				A44F28C326BE8950003898C9 /* SceneDelegate.swift */,
+				A44F28C726BE8950003898C9 /* Main.storyboard */,
+				A44F28CD26BE8953003898C9 /* Assets.xcassets */,
+				A44F28CF26BE8953003898C9 /* LaunchScreen.storyboard */,
+				A44F28D226BE8953003898C9 /* Info.plist */,
+				A44F28CA26BE8950003898C9 /* NoLez.xcdatamodeld */,
 			);
 			path = NoLez;
 			sourceTree = "<group>";
 		};
-		7A8059F426BE7D7E00A2A68A /* ViewControllers */ = {
+		A44F28DA26BE8953003898C9 /* NoLezTests */ = {
 			isa = PBXGroup;
 			children = (
-				7A8059F526BE7DB400A2A68A /* HomeViewController.swift */,
-				7A0F464326BDA179000F759D /* ViewController.swift */,
-				7A0F465E26BDCC9B000F759D /* PreferencesViewController.swift */,
+				A44F28DB26BE8953003898C9 /* NoLezTests.swift */,
+				A44F28DD26BE8953003898C9 /* Info.plist */,
+			);
+			path = NoLezTests;
+			sourceTree = "<group>";
+		};
+		A44F28E526BE8953003898C9 /* NoLezUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A44F28E626BE8953003898C9 /* NolezUITests.swift */,
+				A44F28E826BE8953003898C9 /* Info.plist */,
+			);
+			path = NoLezUITests;
+			sourceTree = "<group>";
+		};
+		A44F28F426BE8A01003898C9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A44F28C526BE8950003898C9 /* ViewController.swift */,
+				A44F28F526BE8A18003898C9 /* SignUpVC.swift */,
+				A44F28F726BE8A2E003898C9 /* WelcomeScreenVC.swift */,
+				7A8059F726BEED4600A2A68A /* SignupViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -87,38 +151,82 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7A0F463B26BDA179000F759D /* NoLez */ = {
+		A44F28BD26BE8950003898C9 /* NoLez */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A0F465326BDA17A000F759D /* Build configuration list for PBXNativeTarget "NoLez" */;
+			buildConfigurationList = A44F28EB26BE8953003898C9 /* Build configuration list for PBXNativeTarget "NoLez" */;
 			buildPhases = (
-				7A0F463826BDA179000F759D /* Sources */,
-				7A0F463926BDA179000F759D /* Frameworks */,
-				7A0F463A26BDA179000F759D /* Resources */,
+				A44F28BA26BE8950003898C9 /* Sources */,
+				A44F28BB26BE8950003898C9 /* Frameworks */,
+				A44F28BC26BE8950003898C9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = NoLez;
-			productName = NoLez;
-			productReference = 7A0F463C26BDA179000F759D /* NoLez.app */;
+			productName = Nolez;
+			productReference = A44F28BE26BE8950003898C9 /* NoLez.app */;
 			productType = "com.apple.product-type.application";
+		};
+		A44F28D626BE8953003898C9 /* NoLezTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A44F28EE26BE8953003898C9 /* Build configuration list for PBXNativeTarget "NoLezTests" */;
+			buildPhases = (
+				A44F28D326BE8953003898C9 /* Sources */,
+				A44F28D426BE8953003898C9 /* Frameworks */,
+				A44F28D526BE8953003898C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A44F28D926BE8953003898C9 /* PBXTargetDependency */,
+			);
+			name = NoLezTests;
+			productName = NolezTests;
+			productReference = A44F28D726BE8953003898C9 /* NoLezTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A44F28E126BE8953003898C9 /* NoLezUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A44F28F126BE8953003898C9 /* Build configuration list for PBXNativeTarget "NoLezUITests" */;
+			buildPhases = (
+				A44F28DE26BE8953003898C9 /* Sources */,
+				A44F28DF26BE8953003898C9 /* Frameworks */,
+				A44F28E026BE8953003898C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A44F28E426BE8953003898C9 /* PBXTargetDependency */,
+			);
+			name = NoLezUITests;
+			productName = NolezUITests;
+			productReference = A44F28E226BE8953003898C9 /* NoLezUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7A0F463426BDA179000F759D /* Project object */ = {
+		A44F28B626BE8950003898C9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					7A0F463B26BDA179000F759D = {
-						CreatedOnToolsVersion = 12.5.1;
+					A44F28BD26BE8950003898C9 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					A44F28D626BE8953003898C9 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = A44F28BD26BE8950003898C9;
+					};
+					A44F28E126BE8953003898C9 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = A44F28BD26BE8950003898C9;
 					};
 				};
 			};
-			buildConfigurationList = 7A0F463726BDA179000F759D /* Build configuration list for PBXProject "NoLez" */;
+			buildConfigurationList = A44F28B926BE8950003898C9 /* Build configuration list for PBXProject "NoLez" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -126,58 +234,104 @@
 				en,
 				Base,
 			);
-			mainGroup = 7A0F463326BDA179000F759D;
-			productRefGroup = 7A0F463D26BDA179000F759D /* Products */;
+			mainGroup = A44F28B526BE8950003898C9;
+			productRefGroup = A44F28BF26BE8950003898C9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7A0F463B26BDA179000F759D /* NoLez */,
+				A44F28BD26BE8950003898C9 /* NoLez */,
+				A44F28D626BE8953003898C9 /* NoLezTests */,
+				A44F28E126BE8953003898C9 /* NoLezUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7A0F463A26BDA179000F759D /* Resources */ = {
+		A44F28BC26BE8950003898C9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A0F464F26BDA17A000F759D /* LaunchScreen.storyboard in Resources */,
-				7A0F464C26BDA17A000F759D /* Assets.xcassets in Resources */,
-				7A0F464726BDA179000F759D /* Main.storyboard in Resources */,
+				A44F28D126BE8953003898C9 /* LaunchScreen.storyboard in Resources */,
+				A44F28CE26BE8953003898C9 /* Assets.xcassets in Resources */,
+				A44F28C926BE8950003898C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44F28D526BE8953003898C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44F28E026BE8953003898C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7A0F463826BDA179000F759D /* Sources */ = {
+		A44F28BA26BE8950003898C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A0F465F26BDCC9B000F759D /* PreferencesViewController.swift in Sources */,
-				7A0F464426BDA179000F759D /* ViewController.swift in Sources */,
-				7A0F464026BDA179000F759D /* AppDelegate.swift in Sources */,
-				7A0F464A26BDA179000F759D /* NoLez.xcdatamodeld in Sources */,
-				7A0F464226BDA179000F759D /* SceneDelegate.swift in Sources */,
-				7A8059F626BE7DB400A2A68A /* HomeViewController.swift in Sources */,
+				A44F28C626BE8950003898C9 /* ViewController.swift in Sources */,
+				7A8059F826BEED4600A2A68A /* SignupViewController.swift in Sources */,
+				A44F28C226BE8950003898C9 /* AppDelegate.swift in Sources */,
+				A44F28CC26BE8950003898C9 /* NoLez.xcdatamodeld in Sources */,
+				A44F28F626BE8A18003898C9 /* SignUpVC.swift in Sources */,
+				A44F28C426BE8950003898C9 /* SceneDelegate.swift in Sources */,
+				A44F28F826BE8A2E003898C9 /* WelcomeScreenVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44F28D326BE8953003898C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44F28DC26BE8953003898C9 /* NoLezTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44F28DE26BE8953003898C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44F28E726BE8953003898C9 /* NolezUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		A44F28D926BE8953003898C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A44F28BD26BE8950003898C9 /* NoLez */;
+			targetProxy = A44F28D826BE8953003898C9 /* PBXContainerItemProxy */;
+		};
+		A44F28E426BE8953003898C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A44F28BD26BE8950003898C9 /* NoLez */;
+			targetProxy = A44F28E326BE8953003898C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		7A0F464526BDA179000F759D /* Main.storyboard */ = {
+		A44F28C726BE8950003898C9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7A0F464626BDA179000F759D /* Base */,
+				A44F28C826BE8950003898C9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		7A0F464D26BDA17A000F759D /* LaunchScreen.storyboard */ = {
+		A44F28CF26BE8953003898C9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7A0F464E26BDA17A000F759D /* Base */,
+				A44F28D026BE8953003898C9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -185,7 +339,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7A0F465126BDA17A000F759D /* Debug */ = {
+		A44F28E926BE8953003898C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -246,7 +400,7 @@
 			};
 			name = Debug;
 		};
-		7A0F465226BDA17A000F759D /* Release */ = {
+		A44F28EA26BE8953003898C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -301,13 +455,15 @@
 			};
 			name = Release;
 		};
-		7A0F465426BDA17A000F759D /* Debug */ = {
+		A44F28EC26BE8953003898C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NoLez/Info.plist;
+				DEVELOPMENT_TEAM = 38Q95MH4LC;
+				INFOPLIST_FILE = Nolez/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,17 +471,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Group7.NoLez;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		7A0F465526BDA17A000F759D /* Release */ = {
+		A44F28ED26BE8953003898C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NoLez/Info.plist;
+				DEVELOPMENT_TEAM = 38Q95MH4LC;
+				INFOPLIST_FILE = Nolez/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,27 +491,129 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Group7.NoLez;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A44F28EF26BE8953003898C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38Q95MH4LC;
+				INFOPLIST_FILE = NolezTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.legacy.iosapp.NolezTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoLez.app/NoLez";
+			};
+			name = Debug;
+		};
+		A44F28F026BE8953003898C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38Q95MH4LC;
+				INFOPLIST_FILE = NolezTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.legacy.iosapp.NolezTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoLez.app/NoLez";
+			};
+			name = Release;
+		};
+		A44F28F226BE8953003898C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38Q95MH4LC;
+				INFOPLIST_FILE = NolezUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.legacy.iosapp.NolezUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nolez;
+			};
+			name = Debug;
+		};
+		A44F28F326BE8953003898C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38Q95MH4LC;
+				INFOPLIST_FILE = NolezUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.legacy.iosapp.NolezUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nolez;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7A0F463726BDA179000F759D /* Build configuration list for PBXProject "NoLez" */ = {
+		A44F28B926BE8950003898C9 /* Build configuration list for PBXProject "NoLez" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A0F465126BDA17A000F759D /* Debug */,
-				7A0F465226BDA17A000F759D /* Release */,
+				A44F28E926BE8953003898C9 /* Debug */,
+				A44F28EA26BE8953003898C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A0F465326BDA17A000F759D /* Build configuration list for PBXNativeTarget "NoLez" */ = {
+		A44F28EB26BE8953003898C9 /* Build configuration list for PBXNativeTarget "NoLez" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A0F465426BDA17A000F759D /* Debug */,
-				7A0F465526BDA17A000F759D /* Release */,
+				A44F28EC26BE8953003898C9 /* Debug */,
+				A44F28ED26BE8953003898C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A44F28EE26BE8953003898C9 /* Build configuration list for PBXNativeTarget "NoLezTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A44F28EF26BE8953003898C9 /* Debug */,
+				A44F28F026BE8953003898C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A44F28F126BE8953003898C9 /* Build configuration list for PBXNativeTarget "NoLezUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A44F28F226BE8953003898C9 /* Debug */,
+				A44F28F326BE8953003898C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -361,17 +621,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		7A0F464826BDA179000F759D /* NoLez.xcdatamodeld */ = {
+		A44F28CA26BE8950003898C9 /* NoLez.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				7A0F464926BDA179000F759D /* NoLez.xcdatamodel */,
+				A44F28CB26BE8950003898C9 /* NoLez.xcdatamodel */,
 			);
-			currentVersion = 7A0F464926BDA179000F759D /* NoLez.xcdatamodel */;
+			currentVersion = A44F28CB26BE8950003898C9 /* NoLez.xcdatamodel */;
 			path = NoLez.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 7A0F463426BDA179000F759D /* Project object */;
+	rootObject = A44F28B626BE8950003898C9 /* Project object */;
 }
